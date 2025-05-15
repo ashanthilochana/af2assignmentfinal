@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Test logs and reports
+test.log
+coverage/
+reports/
+*.log
+jest-report/
+test-results/
+
+# Screenshots and artifacts
+screenshots/
+artifacts/
+
+# Environment files
+.env
+.env.*
+.env.test
+
+# Chrome/Selenium files
+debug.log
+chromedriver.log
+geckodriver.log
+*.har
+selenium-debug.log
+
+# Test cache
+.jest-cache/
+__snapshots__/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

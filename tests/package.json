@@ -1,0 +1,14 @@
+{
+  "name": "country-explorer-tests",
+  "version": "1.0.0",
+  "description": "Functional tests for Country Explorer application",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "test:watch": "jest --watch --detectOpenHandles"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.15.0",
+    "chromedriver": "^136.0.0"
+  }
+}
